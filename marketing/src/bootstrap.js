@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-const App = () => <h1>Hi there from Marketing App</h1>;
+import App from "./App";
 
 const mount = (el) => {
   ReactDOM.render(<App />, el);
